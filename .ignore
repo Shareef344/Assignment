@@ -1,0 +1,31 @@
+# General
+node_modules/
+logs/
+*.log
+npm-debug.log*
+Yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*.local
+
+# Testing / coverage
+coverage/
+.cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+.parcel-cache/
+*.tgz
+*.bak
